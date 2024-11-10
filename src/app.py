@@ -9,9 +9,9 @@ from scipy.interpolate import griddata
 
 matplotlib.use('agg')
 
-data = pd.read_csv('../universities.csv')
-datasal = pd.read_csv('../salary.csv')
-datagen = pd.read_csv('../Gender.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/BiuBiu6699/AI-Edu-Ireland/refs/heads/main/universities.csv')
+datasal = pd.read_csv('https://raw.githubusercontent.com/BiuBiu6699/AI-Edu-Ireland/refs/heads/main/salary.csv')
+datagen = pd.read_csv('https://raw.githubusercontent.com/BiuBiu6699/AI-Edu-Ireland/refs/heads/main/Gender.csv')
 
 def contourPlot():
     fig = go.Figure(
