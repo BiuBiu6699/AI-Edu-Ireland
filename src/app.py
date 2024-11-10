@@ -280,4 +280,4 @@ def error_plot(nume):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8008)
+    app.run_server(debug=True)
