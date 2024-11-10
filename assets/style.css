@@ -1,0 +1,24 @@
+/* Adjust spacing and add hover effect */
+.nav-item-custom {
+    margin-right: 50px; /* Adds space between nav items */
+}
+
+.nav-link-custom {
+    color: white !important;
+    transition: color 0.3s, background-color 0.3s; /* Adds a smooth transition effect */
+    margin-right: 50px;
+}
+
+/* Hover effect */
+.nav-link-custom:hover {
+    color: #f8f9fa !important; /* Lighter color on hover */
+    background-color: #007bff !important; /* Background color on hover */
+    border-radius: 5px; /* Optional rounded corners on hover */
+}
+
+/* Active effect for the selected item */
+.nav-link-custom.active {
+    color: #ffffff !important;
+    background-color: #0056b3 !important; /* Darker color for the active item */
+    border-radius: 5px;
+}
