@@ -1,4 +1,4 @@
-pip install --upgrade pip
+pip==24.3.1
 dash==2.18.1
 dash_bootstrap_components==1.6.0
 matplotlib==3.9.2
