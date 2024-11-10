@@ -75,16 +75,16 @@ server = app.server
 app.layout = dbc.Container([
 
     dbc.Navbar([
-        dbc.NavItem(dbc.NavLink("Bar Chart", href='#bar-chart', external_link=True, className="nav-link-custom")),
+        dbc.NavItem(dbc.NavLink("Bar Chart", href='#bar-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
         dbc.NavItem(
-            dbc.NavLink("Scatter Chart", href='#scatter-chart', external_link=True, className="nav-link-custom")),
-        dbc.NavItem(dbc.NavLink("Geo Chart", href='#geo-chart', external_link=True, className="nav-link-custom")),
-        dbc.NavItem(dbc.NavLink("Line Chart", href='#line-chart', external_link=True, className="nav-link-custom")),
-        dbc.NavItem(dbc.NavLink("Pie Chart", href='#pie-chart', external_link=True, className="nav-link-custom")),
-        dbc.NavItem(dbc.NavLink("Error Chart", href='#error-chart', external_link=True, className="nav-link-custom")),
+            dbc.NavLink("Scatter Chart", href='#scatter-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
+        dbc.NavItem(dbc.NavLink("Geo Chart", href='#geo-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
+        dbc.NavItem(dbc.NavLink("Line Chart", href='#line-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
+        dbc.NavItem(dbc.NavLink("Pie Chart", href='#pie-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
+        dbc.NavItem(dbc.NavLink("Error Chart", href='#error-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
         dbc.NavItem(
-            dbc.NavLink("Contour Chart", href='#contour-chart', external_link=True, className="nav-link-custom")),
-        dbc.NavItem(dbc.NavLink("3D Chart", href='#3d-chart', external_link=True, className="nav-link-custom")),
+            dbc.NavLink("Contour Chart", href='#contour-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
+        dbc.NavItem(dbc.NavLink("3D Chart", href='#3d-chart', external_link=True, className="nav-link-custom"),style={'margin-right': "50px"}),
     ],style={'background-color':'green'},sticky='top',dark=True,color='primary',className="mb-3"),
 
     html.H1("AI and Education in Ireland", className='mb-2 text-primary', style={'textAlign':'center'}),
